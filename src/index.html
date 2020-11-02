@@ -1,14 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>TARJETA DE VALIDACION</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+      <nav>
+        <div>
+         <img src="imagen/icons8-tarjeta-en-uso-48.png" alt="imagen pequeña">
+        </div>
+        <div>
+         <ul>
+          <li>
+            <a href="#">Productos y Precios</a>
+          </li>
+         </ul>
+        </div>
+      </nav>
+    <header>
+      <h1>TARJETA DE VALIDACION</h1>
+      <h3>Datos Requeridos</h3>
+    </header>
+     <form class="contenedor" method="POST" action="valid.html">
+      <div>
+        <div >
+           <label for="entrada">Ingrese su numero de tarjeta</label> 
+           <input type="" name="" id="entrada" maxlength="20" minlength="9" placeholder="digite su numero " required="" >
+          <!-- <p id="texto"></p>
+          <p id="texto1"></p> -->
+        </div>
+        <br>
+        <div >
+           <label for="nombre">Ingrese su Nombre y Apellidos</label>
+           <input type="text" id="nombre" maxlength="30" placeholder="digite su Nombre Completo" required="" >
+        </div>
+        <br>
+        <div >
+           <label for="fecha">Ingrese la fecha</label>
+           <select class="desplegable">
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setiembre">Setiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+           </select>
+           <select class="desplegable">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+           </select>
+        </div>
+        <br>
+        <div class="clave" >
+           <label for="clave">Clave de Seguridad</label>
+           <input type="text" class="clave" id="clave" maxlength="3" placeholder="CVV" required="" >
+        </div>
+        <br>
+           <button type="button" class="botoncito" id="botoncito">Enviar</button>
+        
+        
+        <!-- <div id="valida" class="valida"> -->
+           <p id="texto"></p>
+           <!-- <img src="imagen/aprobacion.png" alt="" id="img"> -->
+        <!-- </div> -->
+        <!-- <div id="error" class="error displayBlock"> -->
+           <p id="texto1"></p>
+            <!-- <img src="imagen/error.png" alt="" id="error"> -->
+        <!-- </div> -->
+      </div>
+     </form>
+    <footer class="footer">
+      <div class="footer_contenedor">
+          <img src="imagen/twitter.png" alt="twitter">
+          <img src="imagen/face.png" alt="facebook">
+      </div>
+    </footer>
+    <script src="index.js" type="module">
+    // <script src="validator.js" type="module">
+    </script>
   </body>
 </html>

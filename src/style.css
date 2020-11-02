@@ -1,0 +1,96 @@
+html,body{
+    padding:0px ;
+    margin: 0px;
+    font-size: 15px;
+    font-family:Helvetica;
+}
+nav{
+    background-color: rgb(214, 231, 214);;
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+nav li{
+    list-style: none;
+    padding-left: 30px;
+}
+nav li a{
+    color:black;
+}
+nav li a:hover{
+   color:rgb(212, 23, 64);
+}
+/* img{
+    align-items: center; */
+
+header{
+    text-align: center;
+    color: mediumspringgreen;
+    text-shadow: 2px 0 0 black;
+    font-family:Helvetica;
+}
+body{
+    background: url(./imagen/pago-con-tarjeta-de-credito.jpg);
+    background-size:cover;
+}
+.contenedor{
+    
+    margin:0 auto;
+    width: 300px;
+    /* border: 1px solid; */
+    padding: 25px 20px 30px 40px;
+    background: rgb(203, 224, 213);
+    border-radius: 40px;
+    border:none;
+    box-shadow:0 0 5px;
+}
+input:focus{
+ background: rgb(85, 128, 85);
+}
+input{
+    outline: 5px;
+    border-radius: 5px;
+    border:none;
+    /* width: 50px; */
+    height:25px
+}
+.desplegable{
+    border-radius: 5px;
+    border:none;
+    height:25;
+}
+/* .clave{
+  
+} */
+
+   
+.botoncito{
+    padding:5px 50px;
+    margin: 17px 40px 30px 70px;
+    border-radius: 8px;
+    border:none;
+    text-decoration: none;
+    margin-bottom: 30px;
+    background: mediumspringgreen;
+}
+.footer{
+background: rgb(214, 231, 214);
+color:white;
+width: 100%;
+height:2%;
+padding:10px;
+bottom: 0px;
+position: fixed;
+/* display:flex; */
+/* justify-content: space-between; */
+text-align: center;
+
+}
+.valida{
+    display:block;
+}
+.error{
+    display:block;
+}
+  

@@ -1,3 +1,41 @@
+
+# Tarjeta de crédito válida
+## Introduccion
+
+
+## 1. Descripcion
+Este programa valida si sus digitos de la tarjeta son correctas o no empleando el algoritmo LUHN,se ejecuto los siguientes pasos al momento de crear la funcion son:
+# Paso 1
+Se crea la funcion isValid dentro de ella se declara una variable para guardar el valor del input asi mismo se emplea un ciclo While para iterar iniciando desde el final de la cadena,luego aplicamos la operacion de multiplicacion a los digitos de las posiciones pares y si el resultado de la multiplicacion superara el numero 9 ,se ejecutara la suma de esa cifra el resultado de dicha suma se agregara a la cadena.
+# Paso 2
+Finalmente al sumar la cadena obtendremos un numero dicho numero debera ser dividido entre 10 y debe darme estrictamente cero para que mi resultado sea valido.
+## 2. Instalaciones
+## 3. Objetivos de aprendizaje
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Commit One
 
 
